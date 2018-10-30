@@ -1,0 +1,16 @@
+.modal p {
+  font-size: 0.875rem;
+  color: #fafafa;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.modal pre {
+  margin-bottom: 2rem !important;
+}
+
+.modal p + pre,
+.modal pre + p,
+.modal p + p {
+  margin-top: -1rem !important;
+}

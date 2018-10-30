@@ -1,0 +1,26 @@
+{
+  "name": "numbers",
+  "version": "0.0.0",
+  "dependencies": {
+    "@microverse-network/browser": "0.0.0",
+    "@microverse-network/core": "0.0.0",
+    "@microverse-network/webworker": "0.0.0",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "@microverse-network/webpack-plugin": "0.0.0",
+    "@microverse-network/webworker-loader": "0.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "subworkers": "^1.0.0",
+    "webpack": "^4.15.1"
+  },
+  "optionalDependencies": {
+    "@microverse-network/agent-plugin": "0.0.0",
+    "@microverse-network/tracker-plugin": "0.0.0",
+    "@microverse-network/webrtcnegotiator-plugin": "0.0.0"
+  }
+}

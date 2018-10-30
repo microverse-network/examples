@@ -1,0 +1,27 @@
+{
+  "bootstrap": {
+    "node": {
+      "id": "bootstrap",
+      "transports": {
+        "accepts": ["websocket"],
+        "websocket": {
+          "port": 3040,
+          "url": "localhost:3040"
+        }
+      }
+    },
+    "signal": {
+      "port": 3033
+    }
+  },
+  "node": {
+    "transportOptions": {
+      "webrtc": {
+        "host": "/",
+        "port": 3033
+      },
+      "websocket": {},
+      "webworker": {}
+    }
+  }
+}

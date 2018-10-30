@@ -1,0 +1,24 @@
+{
+  "bootstrap": {
+    "node": {
+      "_id": "bootstrap",
+      "transports": ["websocket"],
+      "websocket": {
+        "port": 3040,
+        "url": "app.microverse.io:3040"
+      }
+    },
+    "signal": {
+      "port": 3033
+    }
+  },
+  "node": {
+    "transportOptions": {
+      "webrtc": {
+        "host": "/",
+        "port": 3033
+      },
+      "websocket": {}
+    }
+  }
+}
